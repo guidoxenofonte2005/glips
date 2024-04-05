@@ -2,7 +2,9 @@
 ## Sumário
 - [Descrição](#descrição)
 - [Funcionalidade](#funcionalide)
-  - [Main](#main)
+  - [Multiplicação de Matrizes 4x4](#mult)
+  - [Instruções Simplificadas](#intr)
+  - [Execulção em um Ciclo](#ciclo)
 - [Seções do Circuito](#seções-do-circuito)
   - [Main](#main)
   - [Memoria de Instrução](#memoria_de_instrução)
