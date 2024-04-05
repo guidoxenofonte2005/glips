@@ -57,14 +57,19 @@ Este é um simulador de processador MIPS de um ciclo implementado no software Lo
   O Banco de Registradores foi criado com o uso de 16 registradores de 32 bits, 2 multiplexadores e 1 demultiplexador.
   Como o próprio nome diz, é nele que todos os registradores utilizados na implementação desse trabalho estão guardados.
 
-  ![bancodere
+  ![banco_de_registradores](fotos/banco_de_registradores.png)
 
   ### ULA 
   A ULA é a parte do circuito responsável por realizar os cálculos do processador.
   Nela serão realizadas operações de adição, multiplicação, deslocação de bits e comparação.
 
+  ![ula](fotos/ula.png)
+
   ### Memória de Dados
-  Na Memória de Dados é armazemado os resultados das operações realizadas na ULA, as matrizes formadas para serem multiplicadas e a matriz resultaante da multiplicação. 
+  Na Memória de Dados é armazemado os resultados das operações realizadas na ULA, as matrizes formadas para serem multiplicadas e a matriz resultaante da 
+  multiplicação. 
+
+  ![ram](fotos/ram.png)
 
 ## Instrução em Assembler MIPS
 A instrução a seguir foi criada e traduzida para a realização desse projeto. 
