@@ -35,20 +35,29 @@ Este é um simulador de processador MIPS de um ciclo implementado no software Lo
 
   ### Main
   No main ocorre a implementação de todo o circuito do processador.
-  ![main](fotos/main)
+  ![main](fotos/main.png)
 
   ### Memória de Instrução
   Na memória de instrução, foram colocadas todas as instruções criadas pelos colaboradores em hexadecimal após traduzirem do assembler.
   Ela manda as instruções para o Banco de Registradores, a ULA e a Unidade de Controle.
+  
+  ![rom](fotos/rom.png)
+
+  Códigos da Memória de Instrução:
+
+  ![cod](fotos/cod.png)
 
   ### Unidade de Controle
   A Unidade de Controle foi estabelecida por meio de um circuito formado a partir de uma tabela verdade. 
   Ela é responsável por receber as instruções da memória de instrução e mandar os sinais certos ao resto do processador para executá-las.
-  
+
+  ![uc](fotos/uc.png)
   
   ### Banco de Registradores.
   O Banco de Registradores foi criado com o uso de 16 registradores de 32 bits, 2 multiplexadores e 1 demultiplexador.
   Como o próprio nome diz, é nele que todos os registradores utilizados na implementação desse trabalho estão guardados.
+
+  ![bancodere
 
   ### ULA 
   A ULA é a parte do circuito responsável por realizar os cálculos do processador.
