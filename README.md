@@ -2,13 +2,14 @@
 ## Sumário
 - [Descrição](#descrição)
 - [Funcionalidade](#funcionalide)
+  - [Main](#main)
 - [Seções do Circuito](#seções-do-circuito)
   - [Main](#main)
   - [Memoria de Instrução](#memoria_de_instrução)
   - [Unidade de Controle](#uc)
   - [Banco de Registradores](#banco_de_registradores)
   - [ULA](#ula)
-  - [RAM](#ram)
+  - [Memoria de Dados](#ram)
 - [Utilização](#utilização)
 - [Instalação](#instalação)
 - [Contribuições](#contribuições)
@@ -40,10 +41,18 @@ Este é um simulador de processador MIPS de um ciclo implementado no software Lo
 
   ### Unidade de Controle
   A Unidade de Controle foi estabelecida por meio de um circuito formado a partir de uma tabela verdade. 
-  Ela é responsável por receber as instruções da memória de instrução e mandar os sinais certos para executá-las.
+  Ela é responsável por receber as instruções da memória de instrução e mandar os sinais certos ao resto do processador para executá-las.
   
   
-  ### Banco de Registradores
+  ### Banco de Registradores.
+  O Banco de Registradores foi criado com o uso de 16 registradores de 32 bits, 2 multiplexadores e 1 demultiplexador.
+  Como o próprio nome diz, é nele que todos os registradores utilizados na implementação desse trabalho estão guardados.
+
+  ### ULA 
+  A ULA é a parte do circuito responsável por realizar os cálculos do processador.
+  Nela serão realizadas operações de adição, multiplicação, deslocação de bits e comparação.
+
+  ### Memoria de Dados
 
 
 
