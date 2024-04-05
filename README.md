@@ -3,12 +3,10 @@
 ## Sumario:
 
   -[Sobre](#Sobre)
-  
   -[Funcionalidade](#funcionalidade)
-     * [Multiplicação de Matriz 4x4.](#multiplicação_de_matriz_4x4.)
-     * [Instruções MIPS Simplificadas](#instruções_mips_simplificadas)
-     * [Execução em Um Ciclo](#execulçao_em_um_ciclo)
-     
+    -[Multiplicação de Matriz 4x4.](#multiplicação_de_matriz_4x4.)
+    -[Instruções MIPS Simplificadas](#instruções_mips_simplificadas)
+    -[Execução em Um Ciclo](#execulçao_em_um_ciclo)
   -[Insruções utilizadas](#instu)
 
 ## Sobre
